@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock", "SG.EngineeringStream.PerchedPeacock\SG.EngineeringStream.PerchedPeacock.csproj", "{DE0F61F8-87C3-4BAC-9B3A-A501467BBEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Models", "SG.EngineeringStream.PerchedPeacock.Models\SG.EngineeringStream.PerchedPeacock.Models.csproj", "{D71F0728-F2C2-4046-802A-49E6924C12B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.ViewModels", "SG.EngineeringStream.PerchedPeacock.ViewModels\SG.EngineeringStream.PerchedPeacock.ViewModels.csproj", "{A8BCB6E8-339A-4809-A8BF-9FE17C81D60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.DBHelper", "SG.EngineeringStream.PerchedPeacock.DBHelper\SG.EngineeringStream.PerchedPeacock.DBHelper.csproj", "{BD7EC67C-B552-4173-8B8F-418C1723D337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Database", "SG.EngineeringStream.PerchedPeacock.Database\SG.EngineeringStream.PerchedPeacock.Database.csproj", "{BE6B3B73-2599-4A70-A6D1-574B45E82DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Utility", "SG.EngineeringStream.PerchedPeacock.Utility\SG.EngineeringStream.PerchedPeacock.Utility.csproj", "{E91C7255-E01F-4DA4-9F3D-461B9DFA991F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Test", "SG.EngineeringStream.PerchedPeacock.Test\SG.EngineeringStream.PerchedPeacock.Test.csproj", "{5630A5A5-718D-4593-829B-B1B5CC4348C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Authentication", "SG.EngineeringStream.PerchedPeacock.Authentication\SG.EngineeringStream.PerchedPeacock.Authentication.csproj", "{CDB0D2AA-1731-483B-B920-87FC688E1D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Logger", "SG.EngineeringStream.PerchedPeacock.Logger\SG.EngineeringStream.PerchedPeacock.Logger.csproj", "{8A4AEFD1-89A6-4848-9231-C543D64C6128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0F61F8-87C3-4BAC-9B3A-A501467BBEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0F61F8-87C3-4BAC-9B3A-A501467BBEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0F61F8-87C3-4BAC-9B3A-A501467BBEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0F61F8-87C3-4BAC-9B3A-A501467BBEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71F0728-F2C2-4046-802A-49E6924C12B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71F0728-F2C2-4046-802A-49E6924C12B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71F0728-F2C2-4046-802A-49E6924C12B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71F0728-F2C2-4046-802A-49E6924C12B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BCB6E8-339A-4809-A8BF-9FE17C81D60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BCB6E8-339A-4809-A8BF-9FE17C81D60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BCB6E8-339A-4809-A8BF-9FE17C81D60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BCB6E8-339A-4809-A8BF-9FE17C81D60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7EC67C-B552-4173-8B8F-418C1723D337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7EC67C-B552-4173-8B8F-418C1723D337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7EC67C-B552-4173-8B8F-418C1723D337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7EC67C-B552-4173-8B8F-418C1723D337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6B3B73-2599-4A70-A6D1-574B45E82DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6B3B73-2599-4A70-A6D1-574B45E82DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6B3B73-2599-4A70-A6D1-574B45E82DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6B3B73-2599-4A70-A6D1-574B45E82DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91C7255-E01F-4DA4-9F3D-461B9DFA991F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91C7255-E01F-4DA4-9F3D-461B9DFA991F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91C7255-E01F-4DA4-9F3D-461B9DFA991F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91C7255-E01F-4DA4-9F3D-461B9DFA991F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5630A5A5-718D-4593-829B-B1B5CC4348C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5630A5A5-718D-4593-829B-B1B5CC4348C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5630A5A5-718D-4593-829B-B1B5CC4348C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5630A5A5-718D-4593-829B-B1B5CC4348C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB0D2AA-1731-483B-B920-87FC688E1D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB0D2AA-1731-483B-B920-87FC688E1D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB0D2AA-1731-483B-B920-87FC688E1D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB0D2AA-1731-483B-B920-87FC688E1D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4AEFD1-89A6-4848-9231-C543D64C6128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4AEFD1-89A6-4848-9231-C543D64C6128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4AEFD1-89A6-4848-9231-C543D64C6128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4AEFD1-89A6-4848-9231-C543D64C6128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C5A1085-1495-41B7-A283-3FA0CC3FEDF3}
+	EndGlobalSection
+EndGlobal
