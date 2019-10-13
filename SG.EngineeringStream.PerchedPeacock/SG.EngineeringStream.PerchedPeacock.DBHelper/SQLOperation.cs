@@ -10,23 +10,30 @@ namespace SG.EngineeringStream.PerchedPeacock.DBHelper
     {
         public static DataTable ExecuteCommand(string ConnectionString, string Command, Dictionary<string, string> Parameters = null)
         {
-            DataTable dt = new DataTable();
-            SqlConnection connection = new SqlConnection(ConnectionString);
-            using (SqlCommand cmd = new SqlCommand(Command, connection))
+            try
             {
-                cmd.CommandType = CommandType.StoredProcedure;
-                if (Parameters != null)
+                DataTable dt = new DataTable();
+                SqlConnection connection = new SqlConnection(ConnectionString);
+                using (SqlCommand cmd = new SqlCommand(Command, connection))
                 {
-                    foreach (var paramval in Parameters)
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    if (Parameters != null)
                     {
-                        cmd.Parameters.AddWithValue(paramval.Key, paramval.Value);
+                        foreach (var paramval in Parameters)
+                        {
+                            cmd.Parameters.AddWithValue(paramval.Key, paramval.Value);
+                        }
                     }
+                    connection.Open();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(dt);
                 }
-                connection.Open();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(dt);
+                return dt;
             }
-            return dt;
+            catch (Exception ex)
+            {
+                return new DataTable();
+            }
         }
     }
 }

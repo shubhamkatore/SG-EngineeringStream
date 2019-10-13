@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SG.EngineeringStream.PerchedPeacock.DBHelper\SG.EngineeringStream.PerchedPeacock.DBHelper.csproj" />
+    <ProjectReference Include="..\SG.EngineeringStream.PerchedPeacock.Database\SG.EngineeringStream.PerchedPeacock.Database.csproj" />
     <ProjectReference Include="..\SG.EngineeringStream.PerchedPeacock.Models\SG.EngineeringStream.PerchedPeacock.Models.csproj" />
   </ItemGroup>
 

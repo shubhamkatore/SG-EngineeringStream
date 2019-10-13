@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.EngineeringStream.Perche
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.EngineeringStream.PerchedPeacock.Logger", "SG.EngineeringStream.PerchedPeacock.Logger\SG.EngineeringStream.PerchedPeacock.Logger.csproj", "{8A4AEFD1-89A6-4848-9231-C543D64C6128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock", "SG.EngineeringStream.PerchedPeacock\SG.EngineeringStream.PerchedPeacock.csproj", "{EE7E36C6-1F60-4F24-A9E6-6188D850A982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.EngineeringStream.PerchedPeacock", "SG.EngineeringStream.PerchedPeacock\SG.EngineeringStream.PerchedPeacock.csproj", "{EE7E36C6-1F60-4F24-A9E6-6188D850A982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG.EngineeringStream.PerchedPeacock.Service", "SG.EngineeringStream.PerchedPeacock.Service\SG.EngineeringStream.PerchedPeacock.Service.csproj", "{862E26EF-D324-4ECB-90F0-6CA55B98886E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EE7E36C6-1F60-4F24-A9E6-6188D850A982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE7E36C6-1F60-4F24-A9E6-6188D850A982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE7E36C6-1F60-4F24-A9E6-6188D850A982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862E26EF-D324-4ECB-90F0-6CA55B98886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862E26EF-D324-4ECB-90F0-6CA55B98886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862E26EF-D324-4ECB-90F0-6CA55B98886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862E26EF-D324-4ECB-90F0-6CA55B98886E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
