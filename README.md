@@ -4,10 +4,15 @@
 PerchedPeacock
 
 Technical Stack Used 
+
 Frontend : Vue.js
+
 Backend : .Net Core 2.2
+
 Database : Azure SQL Database
+
 CI/CD Tool : Azure DevOps
+
 Cloud Deployment : Azure WebApp
 
 Functionality Implemented :
